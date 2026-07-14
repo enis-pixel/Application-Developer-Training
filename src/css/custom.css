@@ -1,0 +1,22 @@
+:root {
+  --ifm-color-primary: #177e89;
+  --ifm-color-primary-dark: #156f79;
+  --ifm-color-primary-darker: #136a73;
+  --ifm-color-primary-darkest: #105760;
+  --ifm-color-primary-light: #198d99;
+  --ifm-color-primary-lighter: #1a929f;
+  --ifm-color-primary-lightest: #20a7b5;
+  --ifm-background-color: #fffdf9;
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: "Segoe UI", "Helvetica Neue", sans-serif;
+  --ifm-heading-font-family: Georgia, "Times New Roman", serif;
+  --ifm-navbar-background-color: rgba(255, 253, 249, 0.92);
+}
+
+html[data-theme='dark'] {
+  --ifm-background-color: #102a43;
+}
+
+.navbar {
+  backdrop-filter: blur(12px);
+}
